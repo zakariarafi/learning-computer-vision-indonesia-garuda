@@ -1,0 +1,35 @@
+# Deep Learning Use Cases
+
+Deep learning is a branch of machine learning that uses neural networks with many layers. Deep learning outperformed the previously existing methods for computer vision, and has now been successfully applied to many other forms of unstructured data: video, audio, natural language text, and so on.
+
+Deep learning gives us the ability to extract information from images without having to create bespoke image processing filters or code up human logic. When doing image classification using deep learning, we need hundreds or thousands or even millions of images (the more, the better), for which we know the correct label (like **"tulip"** or **"daisy"**). These labeled images can be used to train an image classification deep learning model.
+
+As long as you can formulate a task in terms of learning from data, it is possible to use computer vision machine learning methods to address the problem. For example, consider the problem of **optical character recognition (OCR)**—taking a scanned image and extracting the text from it. The earliest approaches to OCR involved teaching the computer to do pattern matching against what individual letters look like. 
+
+This turns out to be a challenging approach, for various reasons. For example:
+
+- **There are many fonts**, so a single letter can be written in many ways.
+- **Letters come in different sizes**, so the pattern matching has to be scale-invariant.
+- **Bound books cannot be laid flat**, so the scanned letters are distorted.
+- **It is not enough to recognize individual letters**; we need to extract the entire text.
+
+> **Figure 1-4:** Optical character recognition based on rules requires identifying lines, breaking them into words, and then identifying the component letters of each word.
+
+With deep learning, OCR can be easily formulated as an image classification system. Many books have already been digitized, and it’s possible to train a model by showing it a scanned image from a book and using the digitized text as a label.
+
+## Applications of Computer Vision
+
+Computer vision methods provide solutions for a variety of real-world problems. Besides OCR, computer vision has been applied in:
+- **Medical Diagnosis** → X-rays, MRIs, early detection of diseases.
+- **Retail Automation** → QR code scanning, shelf monitoring, quality checking.
+- **Surveillance & Security** → Crop monitoring, wildlife tracking, intruder detection.
+- **Automotive Safety** → Self-driving cars, speed limit recognition, parking assistance.
+- **Government & Smart Cities** → Satellite monitoring, customs inspections.
+- **Agriculture** → Detecting irrigation issues, assessing crop yield, identifying plant diseases.
+- **Manufacturing & Quality Control** → Visual inspection on factory floors.
+- **Insurance** → Assessing vehicle damage automatically.
+
+Deep learning and computer vision continue to evolve, unlocking new possibilities in various industries.
+
+---
+📌 *This document is part of the "Deep Learning for Computer Vision" repository.*
