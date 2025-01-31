@@ -1,7 +1,5 @@
 # Tonggak Sejarah Penting dalam Perkembangan Deep Learning untuk Computer Vision
 
-*Catatan: Karena saya tidak memiliki akses ke database langsung, mungkin ada kesalahan dalam sitasi - mohon verifikasi secara independen.*
-
 ## Dasar-Dasar Awal (1960an-1980an)
 
 Fondasi computer vision modern melalui jaringan saraf dimulai dengan penelitian Hubel dan Wiesel tentang korteks visual kucing, yang menginspirasi arsitektur jaringan saraf tiruan awal (Hubel & Wiesel, 1959, "Receptive fields of single neurones in the cat's striate cortex").
